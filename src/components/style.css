@@ -1,0 +1,109 @@
+ .mainNavbarDiv{
+    background-color: white;
+ }
+ 
+ @media (max-width: 767px) {
+    .navbar-collapse.show .nav-item {
+      border-bottom: 1px solid #000; 
+    }
+  }
+
+  .nav-link{
+    line-height: 25px;
+    color: black!important;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .nav-link:hover{
+    color:#217875!important;
+  }
+  .component2 .container .row .first{
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+  }
+
+  .component2{
+    overflow-x: hidden;
+  }
+  .component2 .container .row .first h1{
+    font-weight: 700;
+  }
+
+  .component2 .container .row .first button{
+    background-color: #007875;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 800;
+    border: none;
+  }
+  
+  .component2 .container .row .first {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  
+  @media (max-width: 767px) {
+    .component2 .container .row .first{
+        height: 53vh!important;
+        width: 50%;
+        margin: 0px auto;
+  }
+
+  .component2 .container .row .second{
+    display: none;
+}
+  }
+
+  .component3{
+    background-color: #F7FBFF;
+    /* background-color: red; */
+    padding: 20px;
+  }
+
+  .component3 .container .row .col-md-2{
+    /* padding: 10px; */
+    margin: 1px;
+    /* background-color: red; */
+  }
+
+  .pictures img{
+    background-color: white;
+  }
+  .pictures :hover{
+    cursor: pointer;
+    box-shadow: -1px 1px 52px -17px rgba(0,0,0,0.75);
+  }
+  .pictures img{
+    margin: 2px;
+    padding: 15px;
+    width: 150px;
+    height: 100px;
+  }
+  
+  .footerLinks div{
+    color: #217875;
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  @media (max-width: 767px) {
+    .footerLinks div{
+      color: #217875;
+      font-size: large;
+      font-weight: 400;
+    }
+  }
+
+  .credits{
+    font-size: 15px;
+    font-weight: 500;
+  }
